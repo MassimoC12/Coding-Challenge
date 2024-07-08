@@ -1,0 +1,57 @@
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.container{
+  width:1000px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 120px 40px 120px;
+}
+header{
+  text-align: center;
+}
+header > h1{
+  color: lightgreen;
+}
+header > img{
+  width: 300px;
+  height: 150px;
+}
+nav{
+  background-color: lightgreen;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+section > h2{
+  display: inline-block;
+}
+section{
+  color: white;
+}
+.arrow:after{
+   content: "\2192";
+}
+#barra-della-carica1{
+  background-color: orange;
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+}
+#barra-della-carica2{
+  background-color: lightgreen;
+  height: 40px;
+  width: 480px;
+  border-radius: 10px;
+}
+#barra-della-carica3{
+  background-color: red;
+  height: 40px;
+  width: 150px;
+  border-radius: 10px;
+}
